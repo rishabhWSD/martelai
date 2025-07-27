@@ -32,6 +32,9 @@ importers:
       formidable:
         specifier: ^3.5.4
         version: 3.5.4
+      next:
+        specifier: 15.3.5
+        version: 15.3.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-auth:
         specifier: ^4.24.11
         version: 4.24.11(next@15.3.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
