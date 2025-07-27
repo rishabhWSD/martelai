@@ -1,12 +1,15 @@
 {
-  "buildCommand": "cd apps/web && pnpm install && pnpm run build",
-  "outputDirectory": "apps/web/.next",
-  "installCommand": "cd apps/web && pnpm install",
-  "framework": "nextjs",
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/apps/web/$1"
+      "src": "apps/web/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/apps/web/$1"
     }
   ]
 }
