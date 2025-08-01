@@ -2,9 +2,8 @@
 	"name": "martelai-monorepo",
 	"version": "1.0.0",
 	"scripts": {
-		"build": "cd apps/web && pnpm run build",
-		"start": "cd apps/web && pnpm start",
-		"dev": "cd apps/web && pnpm dev"
+		"dev": "cd apps/web && pnpm dev",
+		"start": "cd apps/web && pnpm start"
 	},
 	"dependencies": {
 		"next": "15.3.5",
